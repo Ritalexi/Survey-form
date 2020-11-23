@@ -1,0 +1,134 @@
+
+    #title
+    {
+text-align: center;
+font-style: oblique;
+color: teal;
+    }
+    body
+    {
+        background:  linear-gradient(90deg, #ccfffc, #ffcccf );
+    }
+    #frame
+    {
+        border-radius: 2%; 
+     background-color: thistle;
+padding: 50px 50px 50px 50px;
+
+    }
+    #move
+{ 
+width: 62%;
+position: absolute;
+left: 250px;
+    }
+#description
+{
+font-size: 20px;
+text-align: center;
+color: teal;
+font-style: italic;
+}
+
+#survey-form
+{
+color: teal;
+font-size: 20px;
+font-weight: 400px;
+font-style: oblique;
+line-height: 150%;
+}
+#name
+{
+    line-height: 390%;
+    border-radius: 2%;
+    border: transparent;   
+    width: 100%;
+    
+}
+#email
+{
+line-height: 390%;
+border-radius: 2%;
+border: transparent;
+width: 100%;
+}
+#number
+{
+    line-height: 390%; 
+    border-radius: 2%; 
+    border: transparent;
+    width: 100%;
+}
+#name-label
+{
+font-size: 30px;
+}
+#email-label
+{
+    font-size: 30px;
+}
+#number-label
+{
+    font-size: 30px;
+}
+#dropdown
+{
+    border-radius: 4%;
+    border: transparent;
+    width: 100%;
+    padding: 17px;
+}
+#comments
+{
+    width: 100%;
+}
+#submit
+{
+
+    font-size: larger;
+    line-height: 245%;
+    background-color:  #ccfffc;
+    border-radius: 4%;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    color: darkcyan;
+    border: transparent;
+    width: 100%;
+}
+@media (max-width: 2560px)
+{
+    body 
+    {
+        background-size: cover;
+    }
+    #move
+    {
+        position: static;
+        margin: auto;
+        width: 90%;
+    }
+    #frame
+    {
+        border-radius: 1%;
+        padding: 40px;
+    }
+    #survey-form
+    {
+        line-height: normal;
+font-size: large;
+    }
+    #name
+    {
+        line-height: 40px;
+    }
+    #email
+    {
+        line-height: 40px;
+    }
+    #number
+    {
+        line-height: 40px;
+    }
+}
